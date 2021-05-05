@@ -9,3 +9,11 @@ The monte carlo control method was not sufficient to finding an optimal solution
 Please see https://gym.openai.com/envs/Taxi-v2/ for more information.
 
 
+### Instructions
+#### Step 1: clone the repo
+#### Step 2: cd to the working directory
+#### Step 3: pip install -r requirements.txt
+#### Step 4: python main.py 
+TO DO: Create Visualisations
+TO DO: Play game using agent!
+TO DO: GIFs or Images to see the game whilst playing?
