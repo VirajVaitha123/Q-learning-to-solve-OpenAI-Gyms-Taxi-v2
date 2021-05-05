@@ -43,21 +43,4 @@ class Agent:
             return random.choice(np.arange(self.nA))            #select a random action encouraging exploration of states
     
 
-    def step(self, state, action, reward, next_state, done):
-        """ Update the agent's knowledge, using the most recently sampled tuple.
-
-        Params
-        ======
-        - state: the previous state of the environment
-        - action: the agent's previous choice of action
-        - reward: last reward received
-        - next_state: the current state of the environment
-        - done: whether the episode is complete (True or False)
-        """
-        
-        current = self.Q[state][action]                                         # Current state-action pair
-        Qsa_next = np.max(self.Q[next_state]) if next_state is not None else 0  # Highest reward based on all possible actions
-        target = reward + (self.gamma * Qsa_next)                               # construct TD target
-        new_value = current + (self.alpha * (target - current))                 # update step based on learning rate and td target
-        self.Q[state][action] = new_value# get updated value                    # set new value 
-        
+    
