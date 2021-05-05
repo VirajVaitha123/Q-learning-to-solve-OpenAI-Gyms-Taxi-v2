@@ -127,3 +127,22 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+.vscode/settings.json
+drl2/pyvenv.cfg
+drl2/Scripts/activate
+drl2/Scripts/activate.bat
+drl2/Scripts/Activate.ps1
+drl2/Scripts/chardetect.exe
+drl2/Scripts/deactivate.bat
+drl2/Scripts/easy_install-3.9.exe
+drl2/Scripts/easy_install.exe
+drl2/Scripts/f2py.exe
+drl2/Scripts/futurize-script.py
+drl2/Scripts/futurize.exe
+drl2/Scripts/pasteurize-script.py
+drl2/Scripts/pasteurize.exe
+drl2/Scripts/pip.exe
+drl2/Scripts/pip3.9.exe
+drl2/Scripts/pip3.exe
+drl2/Scripts/python.exe
+drl2/Scripts/pythonw.exe
