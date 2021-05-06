@@ -11,9 +11,22 @@ Please see https://gym.openai.com/envs/Taxi-v2/ for more information.
 
 ### Instructions
 #### Step 1: clone the repo
+```
+git clone https://github.com/VirajVaitha123/Q-learning-to-solve-OpenAI-Gyms-Taxi-v2.git
+```
 #### Step 2: cd to the working directory
-#### Step 3: pip install -r requirements.txt
-#### Step 4: python main.py 
+```
+cd filepath_to_directory 
+```
+#### Step 3: Install dependecies 
+```
+pip install -r requirements.txt 
+```
+#### Step 4: Run the main python script
+```
+python main.py 
+```
+
 TO DO: Create Visualisations
 TO DO: Play game using agent!
 TO DO: GIFs or Images to see the game whilst playing?
