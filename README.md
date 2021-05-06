@@ -1,5 +1,6 @@
 # Q-learning-to-solve-OpenAI-Gyms-Taxi-v3
 
+![Test](https://github.com/VirajVaitha123/Q-learning-to-solve-OpenAI-Gyms-Taxi-v2/blob/main/Images/jenna-day-U7v_e06Sn1I-unsplash.jpg)
 This project focuses on using Q-learning, a temporal difference learning approach to solving an OpenAI-Gyms Taxi-v2 task.
 
 The monte carlo control method was not sufficient to finding an optimal solution for this game. TD learning enabled the agent to learn after each timestep, instead of waiting to play an entire game (episode). There are many variations to the TD Learning Sarsa algorithms, and this particular projet uses Sarsamax (a.k.a Q Learning).
